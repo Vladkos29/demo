@@ -11,7 +11,7 @@ public class Testprog{
     public void subTest() {
         Main tt = new Main();
         double t = tt.sub(10.0, 5.0);
-        assertEquals(5.0, t);
+        assertEquals(15.0, t);
     }
     @Test
     public void mulTest() {
