@@ -5,7 +5,7 @@ public class Testprog{
     public void sumTest() {
         Main tt = new Main();
         double t = tt.sum(10.0, 5.0);
-        assertEquals(15.0, t);
+        assertEquals(16.0, t);
     }
     @Test
     public void subTest() {
